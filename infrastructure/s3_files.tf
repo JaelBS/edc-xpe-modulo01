@@ -5,3 +5,4 @@ resource "aws_s3_bucket_object" "spark_code" {
   etag   = filemd5("../data/job_spark.py")
   acl    = "private"
 }
+# 
