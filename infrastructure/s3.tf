@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "datalake" {
-  bucket = "${var.base_backet_name}-${var.environment}-${var.account_number}"
+  bucket = "${var.base_bucket_name}-${var.environment}-${var.account_number}"
   acl    = "private"
 
   tags = {
